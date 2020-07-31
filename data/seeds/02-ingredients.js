@@ -1,11 +1,11 @@
 exports.seed = function (knex) {
   return knex('ingredients').insert([
-    { ingredientName: 'vodka' },
-    { ingredientName: 'dry vermouth' },
-    { ingredientName: 'lemon' },
-    { ingredientName: 'lime juice' },
-    { ingredientName: 'ice' },
-    { ingredientName: 'ginger beer' },
-    { ingredientName: 'lime' }
+    { ingredientName: 'oz of vodka' },
+    { ingredientName: 'oz of dry vermouth' },
+    { ingredientName: 'lemon wedge' },
+    { ingredientName: 'oz of lime juice' },
+    { ingredientName: 'C of ice' },
+    { ingredientName: 'oz of ginger beer' },
+    { ingredientName: 'lime wedge' }
   ]);
 };
